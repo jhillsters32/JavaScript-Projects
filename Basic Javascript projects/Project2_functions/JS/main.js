@@ -1,0 +1,8 @@
+function myFunction() {
+var sentence="I am learning";
+sentence+="a lot from this book!";
+document.getElementsById("Concatenate").innerHTML=sentence
+}
+
+
+
