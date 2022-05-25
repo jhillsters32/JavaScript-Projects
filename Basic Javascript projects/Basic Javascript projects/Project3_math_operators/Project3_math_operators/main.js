@@ -31,22 +31,19 @@ document.getElementById("math4").innerHTML=x; //Computing the expression with do
 function myFunction4() { // Defining and naming function being used
 var a = 6; // Defining the a variable
 a++; // Expression type being used
-var b=5 // Defining the b variable
-document.getElementById("math5").innerHTML = b; //Computing the expression with document.getElementById
+document.getElementById("math5").innerHTML = a; //Computing the expression with document.getElementById
 }
 
 
 function myFunction5() { // Defining and naming function being used
   var x = 6; // Defining the x variable
   x--; // Expression type being used
-  var z=8 // Defining the z variable
-  document.getElementById("math6").innerHTML = z; //Computing the expression with document.getElementById
+  document.getElementById("math6").innerHTML = x; //Computing the expression with document.getElementById
   }
 
-
-  Math.random()*(b-a)+a; { // Defining and naming function being used
-  var a=4; // Defining the a variable
-  var b=5; // Defining the b variable
+function myFunction6(){ // Defining and naming function being used
+  
+  var b=Math.random(); // Defining the b variable
   document.getElementById("math7").innerHTML=b; //Computing the expression with document.getElementById
   
 }
