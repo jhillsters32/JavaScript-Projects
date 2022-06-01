@@ -13,9 +13,9 @@ function Vehicle(Make, Model, Year, Color) { // Defining and naming function bei
 }
 var Jack =new Vehicle("Dodge", "Viper", 2020, "Red"); // Defining the variables being used 
 var Emily=new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black"); // Defining the variables being used
-var Erick=new Vehicle("Ford", "Pinto", 1971, "Mustard"); // Defining the variables being used
+var Erik=new Vehicle("Ford", "Pinto", 1971, "Mustard"); // Defining the variables being used
 function myFunction() { // Defining and naming function being used 
-    document.getElementById("Keywords_and_Constructors").innerHTML= //Computing the expression with document.getElementById
+    document.getElementById("New_and_This").innerHTML= //Computing the expression with document.getElementById
     "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + //-------------------------------
     "manufactured in " + Erik.Vehicle_Year;//--------------------------------
 }
